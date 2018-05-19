@@ -1,0 +1,124 @@
+/*
+	Anaxi_link.css
+*/
+
+.anaxi{
+	text-decoration:none;
+	display:inline-block;
+	line-height:120%;
+}
+.anaxi:hover {
+	text-decoration: none;
+}
+.anaxi:after {
+	display:block;
+	content:'';
+	transition:-webkit-transform .2s ease-in-out;
+	-webkit-transition:-webkit-transform .2s ease-in-out;
+	transition:transform .2s ease-in-out;
+	transition:transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.anaxi:before {
+	display:block;
+	content:'';
+	transition:-webkit-transform .2s ease-in-out;
+	-webkit-transition:-webkit-transform .2s ease-in-out;
+	transition:transform .2s ease-in-out;
+	transition:transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+/*
+	AnaxiTypes
+*/
+/* The Bundle: bg has been dropped, would be implemented in due course. Probably subsequent versions ;) */
+.anaxi-bg {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+.anaxi-underline.anaxi-open:after,.anaxi-overline.anaxi-open:after {
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+}
+.anaxi-underline.anaxi-open:hover:after,.anaxi-overline.anaxi-open:hover:after {
+	-webkit-transform:scaleX(1);
+	transform:scaleX(1);
+	text-decoration: none;
+}
+.anaxi-underline.anaxi-close:after,.anaxi-overline.anaxi-close:after {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+.anaxi-underline.anaxi-close:hover:after,.anaxi-overline.anaxi-close:hover:after {
+	-webkit-transform:scaleX(0);
+	transform:scaleX(0);
+	text-decoration: none;
+}
+/* For AnaxiPosition: top*/
+.anaxi-open:before {
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+}
+.anaxi-open:hover:before {
+	-webkit-transform:scaleX(1);
+	transform:scaleX(1);
+	text-decoration: none;
+}
+.anaxi-close:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+.anaxi-close:hover:before {
+	-webkit-transform:scaleX(0);
+	transform:scaleX(0);
+	text-decoration: none;
+}
+/*
+	AnaxiPositions
+*/
+.anaxi-underline:after {
+	border-bottom: solid 2px transparent;
+}
+.anaxi-overline:before {
+	border-top:solid 2px transparent;
+}
+/*
+	AnaxiPosition Bundles
+*/
+.anaxi-underline.anaxi-blue:hover:after {
+	border-bottom-color:#3a3aca;
+}
+.anaxi-underline.anaxi-red:hover:after {
+	border-bottom-color:crimson;
+}
+.anaxi-underline.anaxi-glod:hover:after {
+	border-bottom-color:gold;
+}
+.anaxi-underline.anaxi-purple:hover:after {
+	border-bottom-color:rebeccapurple;
+}
+.anaxi-underline.anaxi-orange:hover:after {
+	border-bottom-color:orange;
+}
+.anaxi-underline.anaxi-white:hover:after {
+	border-bottom-color:white;
+}
+/* Bundle: overline color schemes */
+
+.anaxi-overline.anaxi-blue:hover:before {
+	border-top-color:#3a3aca;
+}
+.anaxi-overline.anaxi-red:hover:before {
+	border-top-color:crimson;
+}
+.anaxi-overline.anaxi-gold:hover:before {
+	border-top-color:gold;
+}
+.anaxi-overline.anaxi-purple:hover:before {
+	border-top-color:rebeccapurple;
+}
+.anaxi-overline.anaxi-orange:hover:before {
+	border-top-color:orange;
+}
+.anaxi-overline.anaxi-white:hover:before {
+	border-top-color:white;
+}
