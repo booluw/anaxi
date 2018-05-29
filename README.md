@@ -19,4 +19,6 @@ __Types___:<br />
   ------- open ___( anaxi adds an anime that starts from the center and opens up to the full width)__<br />
   ------- close __( anaxi adds an anime that starts from the edges and closes down)__<br />
 ## Example?<br />
-...... Not yet available. Why don't you clone this and see for your self. ;)<br /><br/><br />Created with <3 and Brackets.io by Boluwatife Johnson from __Nigeria__.
+......
+<a href="http://jayceonline.mobie.in/projects/anaxi/anaxi-test.html" target="_blank" title="Ckeckout anaxi">Live Demo</a>
+<br /><br/><br />Created with <3 and Brackets.io by Boluwatife Johnson from __Nigeria__.
